@@ -23,6 +23,7 @@ CK2Plus is a collaborative effort. While most of the work is done by me personal
 * Features *
 ************
 - More provinces and sea zones.
+- New education system. Children's attributes now matter in how well they take to an education (so a high martial child will do better in a martial education), and characters will not simply always end up having the exact same education trait as their tutor.
 - Crusades can result in independent Crusader states with a special truce that makes them able to survive their first few years. A Crusade for Jerusalem will now much more closely mirror the historical First Crusade with an independent Jerusalem being created.
 - Civil wars are more dangerous: A revolting vassal that is trying to depose you will ask all other vassals to join him, which can result in a major revolt among vassals that like him better than they like you.
 - Better title distribution AI: The AI will no longer give all its Duke titles to a single ruler or put Duchies in oddly misplaced locations when a better option exists.
@@ -66,6 +67,24 @@ CK2Plus is a collaborative effort. While most of the work is done by me personal
 *************
 * Changelog *
 *************
+1.13:
+- Fixed a bug that was causing feasts, hunting and summer fairs to become permanently unavailable for a character.
+- Jews can now create the Kingdom of Jerusalem.
+- Harder difficulty levels will no longer increase AI income, but will lower player income instead (for players who think money is too plentiful).
+- Tweaked a vanilla event that was causing Catholic moral authority to increase far too quickly.
+- How you vote on your liege's law proposals will now influence his or her opinion of you.
+- Fixed a rare bug that would result in characters being given two education traits.
+- Further decreased chances of children picking up the higher level education traits.
+- When a character usurps  their liege's primary title, they will now also take the liege's capital province (so that if a pretender seizes the Byzantine Empire they should also get Constantinople, for example).
+- Corrected some newly introduced performance issues.
+- Courtiers with honorary titles and money will now marry on their own unless that honorary title is Court Jester or Concubine.
+- Extending a loan will now only extend it for two years.
+- Exiling characters now costs prestige, to prevent an exploit where a low ranked player could repeatedly imprison and banish his baron vassals for large sums of money.
+- Players can now complete many ambitions multiple times, although the rewards for completing them are greatly lessened after the first time.
+- Fixed a bug where lack of crown laws would incorrectly reset your demesne laws to the lowest level.
+- Fixed some bugs with lover events where women could get impregnated by their female lovers.
+- Female councillors will no longer marry other women.
+
 1.12:
 - Now compatible with official patch 1.05f.
 - Upgraded to latest version of Culturally Different Cities.

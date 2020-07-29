@@ -11,9 +11,10 @@ knightsgfx
 republicsgfx
 saxongfx
 normangfx
-andalusiangfx
-berbergfx
-levantinegfx
+occitangfx
+gaelicgfx
+croatiangfx
+catalangfx
 
 # Eastern
 
@@ -23,13 +24,19 @@ byzantinegfx
 ugricgfx
 cumangfx
 alangfx
+bohemiangfx
 
 # Muslim
 
+andalusiangfx
+berbergfx
+levantinegfx
 arabicgfx
 turkishgfx
 mongolgfx
 africangfx
+persiangfx
+egyptiangfx
 
 # Culture groups
 

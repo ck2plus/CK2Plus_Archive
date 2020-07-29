@@ -1,3 +1,3 @@
-name = "[4] CK2Plus 1.12 (MAIN)"
+name = "[4] CK2Plus 1.13 (MAIN)"
 path = "mod/CK2Plus"
 #user_dir = "CK2Plus"
