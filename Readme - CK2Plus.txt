@@ -1,7 +1,7 @@
 CK2Plus for Crusader Kings 2
 Author: Martin "Wiz" Anward
 Contact: m(dot)anward(at)live(dot)se
-Credits: zeress (Flavorful Titular Titles), Viscardus (Cornish Characters), Cetan (Expanded Character Tooltips), Crackdtoothgrin (Crackdtoothgrin's Graphical Goodies), Spartan_One (Mod File Hosting), Peuri (Little Portait Mod), Trovador and thrashing mad (Enhanced Portraits Mod), EmperorTojo (Icelandic Culture Mod), Ijtzoi (All the Way to Timbuktu), Syren (Syren's Nicknames Mod), mate0815 (Better Looking Characters integration), Shaytana (Better Looking Characters), Werther (French Localisation), EOOQE (German Localisation), Keanon (Patrum Scuta), Zaldax (An Offer You Can't Refuse), Velho e Bom Joe (Culturally Different Cities), Icecream Jones (flags, new countries), Strudel Man (many tweaks and additions), NoNotTheMindProbe (russian kingdoms), pothkan (CK2 heraldy mod), Keanon (Patrum Scuta), The_Chancellor (Council Reshuffling mod), avee (Family Relations Mod, Better Rebels mod, Death Causes mod), Sniper4625 (misc graphics), Van Diemen (HRE Revised Mod), riso (Treaty of Nymphaeum scenario), Six Gun South (PMM)
+Credits: themendios (Performance Tweaks), zeress (Flavorful Titular Titles), Viscardus (Cornish Characters), Cetan (Expanded Character Tooltips), Crackdtoothgrin (Crackdtoothgrin's Graphical Goodies), Spartan_One (Mod File Hosting), Peuri (Little Portait Mod), Trovador and thrashing mad (Enhanced Portraits Mod), EmperorTojo (Icelandic Culture Mod), Ijtzoi (All the Way to Timbuktu), Syren (Syren's Nicknames Mod), mate0815 (Better Looking Characters integration), Shaytana (Better Looking Characters), Werther (French Localisation), EOOQE (German Localisation), Keanon (Patrum Scuta), Zaldax (An Offer You Can't Refuse), Velho e Bom Joe (Culturally Different Cities), Icecream Jones (flags, new countries), Strudel Man (many tweaks and additions), NoNotTheMindProbe (russian kingdoms), pothkan (CK2 heraldy mod), Keanon (Patrum Scuta), The_Chancellor (Council Reshuffling mod), avee (Family Relations Mod, Better Rebels mod, Death Causes mod), Sniper4625 (misc graphics), Van Diemen (HRE Revised Mod), riso (Treaty of Nymphaeum scenario), Six Gun South (PMM)
 
 ****************
 * Installation *
@@ -23,6 +23,7 @@ CK2Plus is a collaborative effort. While most of the work is done by me personal
 * Features *
 ************
 - More provinces and sea zones.
+- New tyranny system that assigns reasonable but noticeable penalties for imprisoning, banishing and executing characters and allows for more leeway in dealing with traitors.
 - New education system. Children's attributes now matter in how well they take to an education (so a high martial child will do better in a martial education), and characters will not simply always end up having the exact same education trait as their tutor.
 - Crusades can result in independent Crusader states with a special truce that makes them able to survive their first few years. A Crusade for Jerusalem will now much more closely mirror the historical First Crusade with an independent Jerusalem being created.
 - Civil wars are more dangerous: A revolting vassal that is trying to depose you will ask all other vassals to join him, which can result in a major revolt among vassals that like him better than they like you.
@@ -55,7 +56,7 @@ CK2Plus is a collaborative effort. While most of the work is done by me personal
 ********************
 * Optional Modules *
 ********************
-- 'Mongol Faces' adds additional character portraits from Better Looking Characters that require the Mongol Faces DLC to work correctly.
+- 'BLC' (Better Looking Characters) adds new and more historical portaits, clothes, hairstyles, beards and so on for the characters in the game. Not recommended for users with less than 2gb of RAM. BLC requires the Mongol Face Pack DLC to work correctly.
 - 'No Time Limit' allows for play up to the year 100000.
 - 'No New Empires' disables creation of all of the new Empire-level titles. Note that they will still show up on empire mapmode but cannot possibly be held by a character with this mode on.
 
@@ -67,7 +68,11 @@ CK2Plus is a collaborative effort. While most of the work is done by me personal
 *************
 * Changelog *
 *************
+1.14:
+- BLC is now an optional module that requires the Mongol Faces DLC. If you are having issues with graphics, performance or load times, try playing without BLC as it increases CK2's memory usage considerably.
+
 1.13:
+- Upgraded to version 7 of Better Looking Characters.
 - Fixed a bug that was causing feasts, hunting and summer fairs to become permanently unavailable for a character.
 - Jews can now create the Kingdom of Jerusalem.
 - Harder difficulty levels will no longer increase AI income, but will lower player income instead (for players who think money is too plentiful).

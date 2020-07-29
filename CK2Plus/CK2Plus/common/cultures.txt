@@ -405,7 +405,7 @@ latin = {
 		mother_name_chance = 5
 	}
 	occitan = {
-		graphical_culture = occitangfx
+		graphical_culture = italiangfx
 		
 		color = { 0.75 0.75 0.3 }
 
@@ -498,7 +498,7 @@ iberian = {
 	graphical_culture = westerngfx
 
 	basque = {
-		graphical_culture = iberiangfx
+		graphical_culture = italiangfx
 		
 		color = { 0.4 0.7 0.6 }
 
@@ -527,7 +527,7 @@ iberian = {
 		modifier = default_culture_modifier
 	}
 	castillan = {
-		graphical_culture = iberiangfx
+		graphical_culture = italiangfx
 		
 		color = { 0.4 0.7 0.5 }
 
@@ -563,7 +563,7 @@ iberian = {
 		modifier = default_culture_modifier
 	}
 	catalan = {
-		graphical_culture = catalangfx
+		graphical_culture = italiangfx
 		
 		color = { 0.4 0.7 0.4 }
 
@@ -592,7 +592,7 @@ iberian = {
 		modifier = default_culture_modifier
 	}
 	portuguese = {
-		graphical_culture = iberiangfx
+		graphical_culture = italiangfx
 		
 		color = { 0.4 0.7 0.3 }
 
@@ -822,7 +822,7 @@ celtic = {
 		mother_name_chance = 10
 	}
 	scottish = {
-		graphical_culture = gaelicgfx
+		graphical_culture = celticgfx
 		
 		color = { 0.3 0.7 0.7 }
 
@@ -848,7 +848,7 @@ celtic = {
 		mother_name_chance = 10
 	}
 	welsh = {
-		graphical_culture = gaelicgfx
+		graphical_culture = celticgfx
 		
 		color = { 0.3 0.8 0.6 }
 
@@ -889,7 +889,7 @@ celtic = {
 		mother_name_chance = 0
 	}
 	cornish = {
-		graphical_culture = gaelicgfx
+		graphical_culture = celticgfx
 		
 		color = { 0.4 0.8 0.5 }
 
@@ -937,7 +937,7 @@ celtic = {
 		mother_name_chance = 0
 	}	
 	breton = {
-		graphical_culture = gaelicgfx
+		graphical_culture = celticgfx
 		
 		color = { 0.3 0.8 0.8 }
 		
@@ -1120,7 +1120,7 @@ altaic = {
 	graphical_culture = muslimgfx
 
 	turkish = {
-		graphical_culture = muslimgfx #turkishgfx
+		graphical_culture = muslimgfx
 
 		color = { 0.85 0.55 0.15 }
 
@@ -1148,7 +1148,7 @@ altaic = {
 		modifier = default_culture_modifier
 	}
 	mongol = {
-		graphical_culture = persiangfx #mongolgfx
+		graphical_culture = mongolgfx
 		#horde = yes
 		
 		color = { 0.775 0.5 0.15 }
@@ -1171,7 +1171,7 @@ altaic = {
 		modifier = default_culture_modifier
 	}
 	cuman = {
-		graphical_culture = persiangfx #cumangfx
+		graphical_culture = muslimgfx
 		
 		color = { 0.7 0.45 0.1 }
 
@@ -1189,7 +1189,7 @@ altaic = {
 		modifier = default_culture_modifier
 	}
 	pecheneg = {
-		graphical_culture = persiangfx #cumangfx
+		graphical_culture = muslimgfx
 		
 		color = { 0.625 0.4 0.1 }
 
@@ -1236,7 +1236,7 @@ arabic_group = {
 		modifier = default_culture_modifier
 	}
 	maghreb_arabic = { 
-		graphical_culture = berbergfx
+		graphical_culture = muslimgfx
 		
 		color = { 0.2 0.9 0.2 }
 
@@ -1268,7 +1268,7 @@ arabic_group = {
 		mother_name_chance = 30
 	}
 	levantine_arabic = {
-		graphical_culture = levantinegfx
+		graphical_culture = muslimgfx
 		
 		color = { 0.3 0.95 0.3 }
 
@@ -1292,7 +1292,7 @@ arabic_group = {
 		modifier = default_culture_modifier
 	}
 	egyptian_arabic = {
-		graphical_culture = egyptiangfx
+		graphical_culture = muslimgfx
 		
 		color = { 0.1 0.6 0.1 }
 
@@ -1316,7 +1316,7 @@ arabic_group = {
 		modifier = default_culture_modifier
 	}
 	andalusian_arabic = {
-		graphical_culture = andalusiangfx
+		graphical_culture = muslimgfx
 		
 		color = { 0.4 0.6 0.1 }
 
@@ -1347,7 +1347,7 @@ arabic_group = {
 		mother_name_chance = 30
 	}
 	sicilian_arabic = { 
-		graphical_culture = berbergfx
+		graphical_culture = muslimgfx
 		
 		color = { 0.3 0.6 0.3 }
 
@@ -1467,7 +1467,7 @@ west_slavic = {
 		modifier = default_culture_modifier
 	}
 	bohemian = {
-		graphical_culture = bohemiangfx
+		graphical_culture = westernslavicgfx
 		
 		color = { 0.4 0.6 0.5 }
 		
@@ -1533,7 +1533,7 @@ south_slavic = {
 	graphical_culture = easterngfx
 
 	croatian = {
-		graphical_culture = croatiangfx
+		graphical_culture = westernslavicgfx
 		
 		color = { 0.4 0.2 0.2 }
 
@@ -1686,7 +1686,7 @@ iranian_group = {
 	graphical_culture = muslimgfx
 
 	persian = {
-		graphical_culture = persiangfx #arabicgfx
+		graphical_culture = muslimgfx
 
 		color = { 0.5 0.5 0.05 }
 
@@ -1714,7 +1714,7 @@ east_african = {
 	graphical_culture = muslimgfx
 
 	nubian = {
-		graphical_culture = africangfx
+		graphical_culture = muslimgfx
 		
 		color = { 0.4 0.4 0.3 }
 
@@ -1736,7 +1736,7 @@ east_african = {
 		modifier = default_culture_modifier
 	}
 	somali = {
-		graphical_culture = africangfx
+		graphical_culture = muslimgfx
 		
 		color = { 0.4 0.4 0.3 }
 
@@ -1758,7 +1758,7 @@ east_african = {
 		modifier = default_culture_modifier
 	}
 	ethiopian = {
-		graphical_culture = africangfx
+		graphical_culture = muslimgfx
 		
 		color = { 0.4 0.4 0.3 }
 
@@ -1785,7 +1785,7 @@ west_african = {
 	graphical_culture = muslimgfx
 	
 	mande = {
-		graphical_culture = africangfx
+		graphical_culture = muslimgfx
 		
 		color = { 0.7 0.2 0.1 }
 
@@ -1803,7 +1803,7 @@ west_african = {
 		modifier = default_culture_modifier
 	}
 	sosso = {
-		graphical_culture = africangfx
+		graphical_culture = muslimgfx
 		
 		color = { 0.5 0.3 0.1 }
 
@@ -1821,7 +1821,7 @@ west_african = {
 		modifier = default_culture_modifier
 	}
 	jolof = {
-		graphical_culture = africangfx
+		graphical_culture = muslimgfx
 		
 		color = { 0.9 0.4 0.2 }
 
